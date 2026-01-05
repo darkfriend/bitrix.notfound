@@ -26,14 +26,14 @@ Loader::registerAutoLoadClasses(
 
 class dev2fun_notfound extends CModule
 {
-    var $MODULE_ID = 'dev2fun.notfound';
-    var $MODULE_VERSION;
-    var $MODULE_VERSION_DATE;
-    var $MODULE_NAME;
-    var $MODULE_DESCRIPTION;
-    var $MODULE_GROUP_RIGHTS = "Y";
+    public $MODULE_ID = 'dev2fun.notfound';
+    public $MODULE_VERSION;
+    public $MODULE_VERSION_DATE;
+    public $MODULE_NAME;
+    public $MODULE_DESCRIPTION;
+    public $MODULE_GROUP_RIGHTS = "Y";
 
-    public function dev2fun_notfound()
+    public function __construct()
     {
         include(__DIR__ . "/version.php");
         $this->MODULE_VERSION = $arModuleVersion['VERSION'];
@@ -42,7 +42,7 @@ class dev2fun_notfound extends CModule
         $this->MODULE_NAME = Loc::getMessage('D2F_MODULE_NAME_NOTFOUND');
         $this->MODULE_DESCRIPTION = Loc::getMessage('D2F_MODULE_DESCRIPTION_NOTFOUND');
         $this->PARTNER_NAME = 'dev2fun';
-        $this->PARTNER_URI = 'http://dev2fun.com';
+        $this->PARTNER_URI = 'https://dev2fun.com';
     }
 
     public function DoInstall()

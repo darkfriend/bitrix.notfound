@@ -33,7 +33,7 @@ class dev2fun_notfound extends CModule
     var $MODULE_DESCRIPTION;
     var $MODULE_GROUP_RIGHTS = "Y";
 
-    public function dev2fun_notfound()
+    public function __construct()
     {
         include(__DIR__ . "/version.php");
         $this->MODULE_VERSION = $arModuleVersion['VERSION'];
