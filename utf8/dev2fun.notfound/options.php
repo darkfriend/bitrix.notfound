@@ -53,7 +53,7 @@ if ($request->isPost() && check_bitrix_sessid()) {
 $msg = new CAdminMessage([
     'MESSAGE' => Loc::getMessage(
         "D2F_NOTFOUND_DONATE_MESSAGES",
-        ['#LINK#' => 'http://yasobe.ru/na/thankyou_bitrix']
+        ['#LINK#' => 'https://www.tinkoff.ru/cf/36wVfnMf7mo']
     ),
     'TYPE' => 'OK',
     'HTML' => true,
@@ -64,7 +64,7 @@ $tabControl->begin();
 
 <form
     method="post"
-    action="<?= sprintf('%s?mid=%s&lang=%s', $request->getRequestedPage(), urlencode($mid), LANGUAGE_ID) ?>&<?= $tabControl->ActiveTabParam() ?>"
+    action="<?= sprintf('%s?mid=%s&lang=%s', $request->getRequestedPage(), urlencode($mid), LANGUAGE_ID) ?>"
     enctype="multipart/form-data"
     name="editform"
     class="editform"
