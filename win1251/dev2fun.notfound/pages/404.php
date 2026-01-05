@@ -9,6 +9,7 @@
 use Bitrix\Main\Localization\Loc;
 
 /** @var array $templates */
+/** @var string $template */
 
 include($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 require($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH.'/header.php');
