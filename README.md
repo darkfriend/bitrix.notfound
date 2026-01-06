@@ -72,8 +72,8 @@
 
 ## Техническая поддержка
 
-Поддержку решения осуществляет @darkfriend от команды [dev2fun](http://dev2fun.com)
-Вы можете найти меня по этому нику в [telegram](https://t.me/darkfriend) или написав на почту support@dev2fun.com
+Поддержку решения осуществляет `@darkfriend` от команды [dev2fun](https://dev2fun.com)
+Вы можете написать в общий чат [telegram](https://t.me/dev2fun_support) или написав на почту support@dev2fun.com
 
 ## Поддержка выпуска обновлений
 
