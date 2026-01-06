@@ -42,7 +42,7 @@
     }
   }
 ```
-* Установить модуль через composer: `composer require dev2fun.notfound`
+* Установить модуль через composer: `composer require darkfriend/dev2fun.notfound`
 * Установить в админке сайта
   * Перейти в админку сайта и пройти по пути `Marketplace -> Установленные решения`
   * Найти в списке модуль `Страница 404 с множеством шаблонов (dev2fun.notfound)`
