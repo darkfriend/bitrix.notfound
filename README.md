@@ -26,11 +26,11 @@
 
 ### 2 способ. Как установить модуль через composer
 * Добавить в файл `composer.json` настройки для `extra`
-  * Рекомендуется устанавливать внутри папки bitrix. Для этого используйте файл `bitrix/composer.json` и добавьте
+  * Рекомендуется устанавливать внутри папки `bitrix`. Для этого используйте файл `bitrix/composer.json` и добавьте
 ```json
   "extra": {
     "installer-paths": {
-      "bitrix/modules/{$name}/": ["type:bitrix-module"]
+      "modules/{$name}/": ["type:bitrix-module"]
     }
   }
 ```
@@ -38,7 +38,7 @@
 ```json
   "extra": {
     "installer-paths": {
-      "local/modules/{$name}/": ["type:bitrix-module"]
+      "modules/{$name}/": ["type:bitrix-module"]
     }
   }
 ```
@@ -79,7 +79,8 @@
 
 |                    |                                                        |
 |--------------------|--------------------------------------------------------|
-| Картой РФ          | [donate page](www.tinkoff.ru/cf/36wVfnMf7mo)           |
+| Картой РФ          | [donate page](https://yoomoney.ru/to/410011413398643)  |
+| Tinkoff Bank       | https://tbank.ru/cf/36wVfnMf7mo                        |
 | Yandex.Money       | 410011413398643                                        |
 | Webmoney WMR (rub) | R218843696478                                          |
 | Webmoney WMU (uah) | U135571355496                                          |
