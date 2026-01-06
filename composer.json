@@ -1,0 +1,30 @@
+{
+    "name": "darkfriend/dev2fun.notfound",
+    "description": "Модуль добавляет поддержку страниц 404 для 1С-Битрикс",
+    "homepage": "https://github.com/darkfriend/bitrix.notfound",
+    "type": "bitrix-module",
+    "keywords": [
+        "bitrix",
+        "404 page",
+        "404",
+        "страница 404",
+        "darkfriend",
+        "модуль",
+        "битрикс"
+    ],
+    "authors": [
+        {
+            "name": "darkfriend",
+            "email": "hi@darkfriend.ru",
+            "role": "Author"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0|^2.0"
+    },
+    "extra": {
+        "installer-name": "dev2fun.notfound"
+    }
+}
