@@ -34,14 +34,6 @@
     }
   }
 ```
-  * Для установки внутри `local` добавьте в файл `local/composer.json`
-```json
-  "extra": {
-    "installer-paths": {
-      "modules/{$name}/": ["type:bitrix-module"]
-    }
-  }
-```
 * Установить модуль через composer: `composer require darkfriend/dev2fun.notfound`
 * Установить в админке сайта
   * Перейти в админку сайта и пройти по пути `Marketplace -> Установленные решения`
